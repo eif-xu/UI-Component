@@ -1,0 +1,84 @@
+/*整体给颜色*/
+body{
+	background: #d9d9d9;
+}
+/*整体盒子*/
+#top-right{
+	width: 200px;
+	height: 150px;
+	background: #555555;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+/*最大的划线最外层的*/
+#top-right-all{
+	width: 200px;
+	height: 150px;
+	border-top-right-radius: 200px 150px;
+	position: absolute;
+	background:-webkit-linear-gradient(45deg,#d7d7d7,#e2e2e2 20%,#ffffff 50%,#e2e2e2 75%,#e2e2e2)
+}
+/*位置3的css*/
+#top-left{
+	width: 25px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top-right-radius: 25px 100px;
+	background: #d9d9d9;
+	box-shadow: -3px 2px 2px #333333 inset;
+}
+/*2,6位置*/
+#btn-left{
+	width: 75px;
+	height: 50px;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	background: #ffffff;
+	border:0;
+	background: #d9d9d9;
+
+}
+
+/*位置2*/
+#btn-left-right{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 25px;
+	border-bottom-left-radius: 50px 50px;
+	background:linear-gradient(45deg,#e8e8e8,#f0f0f0);
+	border-top-width: 0;
+	box-shadow: -3px 3px 2px #333333;
+}
+
+/*位置5*/
+#btn-mid{
+	width: 75px;
+	height: 50px;
+	position: absolute;
+	top: 100px;
+	left: 75px;
+	border-top-left-radius: 75px 50px;
+	background: #ffffff;
+	box-shadow: 2px 3px 2px #333333 inset;
+	background: #d9d9d9;
+}
+
+/*位置5*/
+#btn-right{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	border-top-right-radius: 50px 50px;
+	background: #ffffff;
+	box-shadow: -5px 3px 2px #333333 inset;
+	background: #d9d9d9;
+
+}
